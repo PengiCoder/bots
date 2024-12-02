@@ -70,10 +70,7 @@ function ads() {
   console.clear()
   console.log("==================")
   console.log("Kahoot-Bot-Spammer")
-  console.log("Made by ZaWarudo1")
-  console.log("Update brought to")
-  console.log("     you by:")
-  console.log("  Casual Frosty")
+  console.log("Made by PengiCoder")
   console.log("==================\n")
 }
 ads()
@@ -86,7 +83,7 @@ if (antibotmode == "y") {
 
 pin = readline.question('Enter Game PIN --> ');
 bots = readline.question('Enter number of bots --> ');
-if (antibotmode == "y") {
+if (antibotmode == "") {
   ranname = true
   er = "n"
 } else {
